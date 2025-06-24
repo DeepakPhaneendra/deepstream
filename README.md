@@ -67,3 +67,5 @@ Configuring Docker
    ```bash
    docker run --gpus all -it --rm --network=host --privileged -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY  deep stream-robobrain
    ```
+   
+---
