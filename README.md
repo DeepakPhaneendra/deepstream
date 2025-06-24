@@ -20,7 +20,7 @@ This repository provides instructions to set up Docker and the NVIDIA Container 
 
 Required to enable GPU access inside Docker for DeepStream.
 
+1. **Add the NVIDIA GPG key and repository**
 ```bash
-# 1. Add the NVIDIA GPG key and repository
 curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | \
   sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg
