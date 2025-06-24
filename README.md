@@ -55,7 +55,7 @@ Configuring Docker
    sudo systemctl restart docker
    ```
 
-## Deepstream Docker Build
+## 🐳 DeepStream Docker Build
 1. **Clone the repository and build the docker file using the below command**
    ```bash
    docker build -t deepstream-robobrain .
