@@ -55,6 +55,8 @@ Configuring Docker
    sudo systemctl restart docker
    ```
 
+---
+
 ## 🐳 DeepStream Docker Build
 1. **Clone the repository and build the docker file using the below command**
    ```bash
