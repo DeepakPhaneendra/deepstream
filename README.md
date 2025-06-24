@@ -54,3 +54,14 @@ Configuring Docker
    ```bash
    sudo systemctl restart docker
    ```
+
+## Deepstream Docker Build
+1. **Clone the repository and build the docker file using the below command**
+   ```bash
+   docker build -t deepstream-robobrain .
+   ```
+
+2. **Run the docker image**
+   ```bash
+   docker run --gpus all -it --rm --network=host --privileged -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY  deep stream-robobrain
+   ```
