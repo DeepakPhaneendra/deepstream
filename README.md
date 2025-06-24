@@ -63,9 +63,12 @@ Configuring Docker
    docker build -t deepstream-robobrain .
    ```
 
-2. **Run the docker image**
+2. **Allow X server access if running GUI app**
    ```bash
-   xhost +local:root  # (Optional) Allow X server access if running GUI apps
+   xhost +
+   ```
+3. **Run the docker image**
+   ```bash
    docker run --gpus all -it --rm \
      --network=host \
      --privileged \
