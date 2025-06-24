@@ -1,19 +1,12 @@
-# 🐳 Docker Installation Guide
+# 🚀 DeepStream Docker Setup
 
-This repository provides instructions to install Docker on your system before running any Docker-based applications.
-
----
-
-## 📥 Install Docker
-
-Follow the steps below or refer to the official guide:
-
-🔗 [Docker Official Installation Guide](https://docs.docker.com/get-docker/)
+This guide helps you set up Docker to run NVIDIA DeepStream applications.
 
 ---
 
-### ✅ Installation Steps for Ubuntu
+## 📋 Prerequisites
 
-1. **Update your system**
-   ```bash
-   sudo apt update
+- Install `docker-ce` by following the [official instructions](https://docs.docker.com/engine/install).
+- After installation, follow the [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/) to allow running Docker without `sudo`.
+
+---
