@@ -46,7 +46,7 @@ Required to enable GPU access inside Docker for DeepStream.
    ```
 
 Configuring Docker
-1. **Configure the container runtime by using the nvidia-ctk command**
+1. **Configure the container runtime by using the <span style="color: green; font-weight: bold;">nvidia-ctk command</span>**
    ```bash
    sudo nvidia-ctk runtime configure --runtime=docker
    ```
